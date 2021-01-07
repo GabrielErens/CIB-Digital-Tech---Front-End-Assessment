@@ -4,40 +4,200 @@ body{
     min-height: 100vh;    
 }
 
-.img{
-    position: absolute;
-    background-size:cover;
-    margin: 0;
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    width: fit-content;
 }
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.img{
+    position: absolute;    
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+/*Main Navigation bar*/
 .topNavBar{
 margin-top: 0;
+margin-left: 70px;
+text-align: left;
 position: relative;
 border: none;
 padding: 1rem;
+font-family: 'Montserrat', sans-serif; 
+transition-duration: 0.4s;
+overflow: hidden;
 }
 
+hr{
+    width: 100%;
+}
+/*Social Media Icons*/
+.imgSocialMedia{
+    float: right;
+    margin-right: 30px;
+}
+li{
+    display:inline-block ;
+    text-decoration: none;
+}
 
-a{
+.ankerTagStyle{
     color: #fff;
     padding: 1rem;   
-    text-decoration: none;    
-}
- a:hover{
-     font-size: 1.2rem;
-     text-decoration: underline 5px #9b3939 ;
- }
-
- .imgSocialMedia:hover{
-    color: #9b3939;
+    text-decoration: none; 
+    font-family: 'Montserrat', sans-serif; 
 }
 
+/*H1 Canvas heading*/
 .heading{
+font-size: 3rem;
+letter-spacing: 10px;
 position: relative;
 margin-top: 10px;
 margin-left: 25px;
 color: #fff;
+width: fit-content;
+margin-left: 70px;
 }
+
+/*Secondary Navigation bar links*/
 .links{
     position: relative;
     margin-right: 25px;
+    float: right;
+    margin-top:-60px;    
+}
+
+
+/*Form */
+.forumStyleAnkerTags{
+    position: relative;
+    background-color: #3a3535;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    margin-left:70px ;
+    padding: 15px 0;
+    max-width:fit-content;    
+}
+
+.forumStyle{
+    background-color: rgb(230, 230, 230,0.9);
+    border-top: solid 4px #9b3939;
+    position: relative;    
+    width: 800px;
+    height: 520px;
+    margin-left: 70px;
+    margin-top: 0;
+    padding:0 20px 20px 20px;
+    
+}
+.formAnkerTags{ 
+border-left: solid 1px #ffffffc9 ;
+transition-duration: 0.8s;
+margin: 0;
+} 
+
+.formHeading{
+    position: relative;
+    margin: 80px 30px;
+    font-size: 35px;
+}
+
+/*From /Return left alignment*/
+.formLeftAlign{
+float: left;
+position: relative;
+margin: 20px 10px;
+height: 90px;
+}
+
+
+/*Domestic/ International btn*/
+.btnForm{
+    position: absolute;        
+    margin-left: 500px;
+    margin-top: 5px;
+
+}
+#searchFlights{
+position: relative;
+background-color: #9b3939;
+border: none;
+border-radius: 4px;
+padding: 15px;
+color: #fff;
+font-size: 18px;
+cursor: pointer;
+transition-duration: 0.4s;
+}
+
+label,input{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 300; 
+    font-weight: bold;  
+}
+/*Text area styling for from and to  */
+.formFromTo{
+    color: #000000;
+    padding: 14px 20px;
+    width: 310px;
+}
+.advanceSearch{
+position: relative;
+float: right;
+font-size: 20px;
+margin-top: -40px;
+margin-right: 40px;
+}
+/*Advance search style */
+.advanceSearchStyle{
+    color: #9b3939;
+    font-style: italic;
+    letter-spacing: 1.2px;
+    transition-duration: 0.4;
+}
+
+/*Text area styling for Return , Departure and adults  */
+.returnDepartureAdultsStyle{
+    color: #000000;
+    padding: 7px 10px;
+    width: 210px;
+}
+/*Animation*/
+
+/*Main nav bar animation*/
+.topNavBar:hover{
+    font-size: 1.2rem;
+}
+
+/*main nav bar animation*/
+.imgSocialMedia:hover{
+   color: #9b3939;
+}
+
+/*Secondary nav bar  animation*/
+.linksanimation:hover{
+    border: solid 1px #fff;
+}
+
+/*form nav bar animation*/
+.formAnkerTags:hover{
+    background-color: #9b3939;    
+}
+#searchFlights:hover{
+   
+    background-color: #fff;
+    color: #9b3939;
+    border:solid 2px #9b3939;
+}
+
+.advanceSearchStyle:hover{
+    color: #fff;
+    
 }

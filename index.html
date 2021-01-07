@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,53 +9,133 @@
     <link rel="stylesheet" href="style.css">
 
     <!--Font Awesome Icons-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" 
-    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
     <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+       
 
     <title>CIB Digital Tech – Front End Assessment</title>
 
 
 </head>
+
 <body>
-     
+    <!--BackGround Image-->
     <img class="img" src="Image/Image 1.jpg" alt="City Skyline">
 
     <!--Top navbar and Icons-->
-    
-        <ul class="topNavBar">
-            <a href="">HOME</a>
-            <a href="">FAQS</a>
-            <a href="">CONTACT</a>
-            <a href="">USD</a>
-            <a href="" ><i class="fab fa-facebook-f imgSocialMedia"></i></a>
-            <a href=""><i class="fab fa-twitter imgSocialMedia"></i></a>
-            <a href=""><i class="fab fa-pinterest-p imgSocialMedia"></i></a>
-            <a href=""><i class="fab fa-instagram imgSocialMedia"></i></a>
-            <a href=""><i class="fas fa-phone-alt imgSocialMedia"></i></a>
-            <a href=""><i class="fas fa-envelope imgSocialMedia"></i></a>
-<hr>
-        </ul> 
 
-      
-    <!--Main Heading-->       
+    <ul class="topNavBar">
+        <li><a class="ankerTagStyle" href="">HOME</a></li>
+        <li><a class="ankerTagStyle" href="">FAQS</a></li>
+        <li><a class="ankerTagStyle" href="">CONTACT</a></li>
+        <li>
+            <a class="ankerTagStyle" href="">USD  &#709 </a>
+        </li>
+
+
+
+        <!--Social Media Icons-->
+        <a class="ankerTagStyle" href="https://www.instagram.com/"><i class="fas fa-phone-alt imgSocialMedia"></i></a>
+        <a class="ankerTagStyle" href="mailto:erensoosthuizen3@gmail.com"><i class="fas fa-envelope imgSocialMedia"></i></a>
+        <a class="ankerTagStyle" href="https://www.facebook.com"><i class="fab fa-facebook-f imgSocialMedia"></i></a>
+        <a class="ankerTagStyle" href="https://twitter.com/?lang=en"><i class="fab fa-twitter imgSocialMedia"></i></a>
+        <a class="ankerTagStyle" href="https://za.pinterest.com/"><i class="fab fa-pinterest-p imgSocialMedia"></i></a>
+        <a class="ankerTagStyle" href="https://www.instagram.com/"><i class="fab fa-instagram imgSocialMedia"></i></a>
+        <hr>
+    </ul>
+
+
+    <!--Main Heading-->
     <H1 class="heading">CANVAS</H1>
 
-    <!--Links-->
+    <!--Links Secondary nav bar-->
     <div class="links">
         <ul>
-            <a href=""><i class="fas fa-home"></i>   HOME</a>
-            <a href=""><i class="fas fa-plane"></i>  FLIGHTS</a>
-            <a href=""><i class="fas fa-hotel"></i>   HOTELS</a>
-            <a href=""><i class="fas fa-gift"></i>   HOLIDAYS</a>
-            <a href=""><i class="fas fa-pen"></i>   BLOG</a>
-            <a href=""><i class="fas fa-phone-alt"></i>   1800 105 2541</a>
+            <a href="" class="linksanimation ankerTagStyle"><i class="fas fa-home"></i> HOME</a>
+            <a href="" class="linksanimation ankerTagStyle"><i class="fas fa-plane"></i> FLIGHTS</a>
+            <a href="" class="linksanimation ankerTagStyle"><i class="fas fa-hotel"></i> HOTELS</a>
+            <a href="" class="linksanimation ankerTagStyle"><i class="fas fa-gift"></i> HOLIDAYS</a>
+            <a href="" class="linksanimation ankerTagStyle"><i class="fas fa-pen"></i> BLOG</a>
+            <a href="" class="linksanimation ankerTagStyle"><i class="fas fa-phone-alt"></i> 1800 105 2541</a>
         </ul>
-    </div> 
+    </div>
+
+
+    <!--Flight form-->
+    <div>
+        <!--Flight nav bar links-->
+        <ul class="forumStyleAnkerTags">
+            <a class="formAnkerTags  ankerTagStyle" href="">Flights</a>
+            <a class="formAnkerTags ankerTagStyle" href="">Hotel</a>
+            <a class="formAnkerTags ankerTagStyle" href="">Flights + Hotels</a>
+            <a class="formAnkerTags ankerTagStyle" href="">Holidays</a>
+        </ul>
+
+        <!--Form Start-->
+        <div class="forumStyle">
+            <form>
+                <div class="btnForm">
+                    <input type="button" id="domesticBtn" value="Domestic">
+                    <input type="button" id="internasionalBtn" value="International">
+                </div>
+                <h2 class="formHeading">BOOK YOUR FLIGHTS</h2>
+
+                <div class="formLeftAlign">
+                    <label>FROM</label>
+                    <br>
+                    <input class="formFromTo" type="text" name="" id="" placeholder="Eg. Pretoria, South Africa">
+                </div>
+                <div class="formLeftAlign">
+                    <label class="">TO</label>
+                    <br>
+                    <input class="formFromTo " type="text" name="" id=""
+                        placeholder="Eg. Austin, United States Of America">
+                </div>
+                <div class="formLeftAlign">
+                    <label>RETURN</label>
+                    <br>
+                    <input class="returnDepartureAdultsStyle" type="date" name="" id="">
+                </div>
+                <div class="formLeftAlign">
+                    <label>DEPARTURE</label>
+                    <br>
+                    <input class="returnDepartureAdultsStyle" type="date" name="" id="">
+                </div>
+                <div class="formLeftAlign">
+                    <label>ADULTS</label>
+                    <br>
+                    <input class="returnDepartureAdultsStyle" type="number" name="" id="" placeholder="2">
+                </div>
+                <div class="searchBtn">
+                    <input type="button" value="SEARCH FLIGHTS" id="searchFlights">
+                </div>
+                <div class="advanceSearch">
+                    <label>
+                        <a href="" class="advanceSearchStyle">
+                            Advanced search
+                        </a>
+                    </label>
+                </div>
+
+            </form>
+            <!--Form end-->
+        </div>
+    </div>
+
+
+
+
 
 
     <!--Script-->
     <script src="script.js"></script>
 </body>
+
 </html>
